@@ -12,6 +12,14 @@ producer.py --> [topic: transactions] --> consumer.py --+--> [topic: transaction
                                                           +--> console (per-event debug, tumbling window, running total)
 ```
 
+## Dokumentasi
+
+- [Contoh output console](docs/console%20output.png)
+- [Contoh event transaction dalam JSON](docs/transaction%20json.png)
+- [Contoh transaction valid](docs/transaction%20valid.png)
+- [Contoh event DLQ dalam JSON](docs/dlq%20json.png)
+- [Topic Kafka: transaction, valid, dan DLQ](docs/topic%20kafka%20%28transaction,%20valid,%20dlq%29.png)
+
 ## Install dependency Python
 
 ```bash
